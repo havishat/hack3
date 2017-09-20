@@ -32,6 +32,10 @@
 		713251AF1F72117000ECD3B4 /* chef-animation-7.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 713251A31F72117000ECD3B4 /* chef-animation-7.tiff */; };
 		713251B01F72117000ECD3B4 /* chef-animation-8.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 713251A41F72117000ECD3B4 /* chef-animation-8.tiff */; };
 		713251B11F72117000ECD3B4 /* chef-animation-9.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 713251A51F72117000ECD3B4 /* chef-animation-9.tiff */; };
+		713251B71F72408800ECD3B4 /* image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 713251B61F72408800ECD3B4 /* image.jpg */; };
+		71E70D841F72E25C0070B8BE /* imagetitle.png in Resources */ = {isa = PBXBuildFile; fileRef = 71E70D831F72E25C0070B8BE /* imagetitle.png */; };
+		71E70D861F72EA7A0070B8BE /* food.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 71E70D851F72EA7A0070B8BE /* food.jpg */; };
+		71E70D881F72EB530070B8BE /* food1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 71E70D871F72EB530070B8BE /* food1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +87,10 @@
 		713251A31F72117000ECD3B4 /* chef-animation-7.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "chef-animation-7.tiff"; sourceTree = "<group>"; };
 		713251A41F72117000ECD3B4 /* chef-animation-8.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "chef-animation-8.tiff"; sourceTree = "<group>"; };
 		713251A51F72117000ECD3B4 /* chef-animation-9.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "chef-animation-9.tiff"; sourceTree = "<group>"; };
+		713251B61F72408800ECD3B4 /* image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image.jpg; sourceTree = "<group>"; };
+		71E70D831F72E25C0070B8BE /* imagetitle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imagetitle.png; sourceTree = "<group>"; };
+		71E70D851F72EA7A0070B8BE /* food.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = food.jpg; sourceTree = "<group>"; };
+		71E70D871F72EB530070B8BE /* food1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = food1.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +141,10 @@
 		713250D81F71C0EB00ECD3B4 /* hack3 */ = {
 			isa = PBXGroup;
 			children = (
+				71E70D871F72EB530070B8BE /* food1.jpg */,
+				713251B61F72408800ECD3B4 /* image.jpg */,
+				71E70D851F72EA7A0070B8BE /* food.jpg */,
+				71E70D831F72E25C0070B8BE /* imagetitle.png */,
 				713251991F72117000ECD3B4 /* images3 */,
 				713250D91F71C0EB00ECD3B4 /* AppDelegate.swift */,
 				7132510A1F71C1EA00ECD3B4 /* FirstTableViewController.swift */,
@@ -295,16 +307,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				713251A71F72117000ECD3B4 /* chef-animation-10.tiff in Resources */,
+				71E70D881F72EB530070B8BE /* food1.jpg in Resources */,
 				713251A91F72117000ECD3B4 /* chef-animation-12.tiff in Resources */,
 				713251A81F72117000ECD3B4 /* chef-animation-11.tiff in Resources */,
 				713251AD1F72117000ECD3B4 /* chef-animation-5.tiff in Resources */,
 				713250E71F71C0EB00ECD3B4 /* LaunchScreen.storyboard in Resources */,
 				713251A61F72117000ECD3B4 /* chef-animation-1.tiff in Resources */,
+				71E70D841F72E25C0070B8BE /* imagetitle.png in Resources */,
 				713250E41F71C0EB00ECD3B4 /* Assets.xcassets in Resources */,
 				713251AA1F72117000ECD3B4 /* chef-animation-2.tiff in Resources */,
 				713251AB1F72117000ECD3B4 /* chef-animation-3.tiff in Resources */,
 				713251AC1F72117000ECD3B4 /* chef-animation-4.tiff in Resources */,
 				713251B01F72117000ECD3B4 /* chef-animation-8.tiff in Resources */,
+				713251B71F72408800ECD3B4 /* image.jpg in Resources */,
+				71E70D861F72EA7A0070B8BE /* food.jpg in Resources */,
 				713251AF1F72117000ECD3B4 /* chef-animation-7.tiff in Resources */,
 				713251AE1F72117000ECD3B4 /* chef-animation-6.tiff in Resources */,
 				713251B11F72117000ECD3B4 /* chef-animation-9.tiff in Resources */,

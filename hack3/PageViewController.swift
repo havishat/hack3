@@ -12,6 +12,7 @@ class PageViewController: UIViewController {
     
     var food: NSDictionary?
     var ingredients: [String] = []
+   
     
     @IBAction func goToSitePressed(_ sender: UIButton) {
         let url = NSURL(string: food?.value(forKey: "href") as! String)
@@ -21,6 +22,7 @@ class PageViewController: UIViewController {
     }
     override func viewDidLoad() {
         super.viewDidLoad()
+        print(ingredients)
         // Do any additional setup after loading the view.
     }
 
@@ -48,6 +50,9 @@ extension PageViewController: UITableViewDelegate {
         } else {
             tableView.cellForRow(at: indexPath)?.accessoryType = .checkmark
         }
+      
+        
+//        tableView.backgroundView = UIImageView(image: UIImage(named: "regularLogin.jpg"))
     }
 }
 

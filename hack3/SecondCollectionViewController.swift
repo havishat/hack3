@@ -16,8 +16,10 @@ class SecondCollectionViewController: UICollectionViewController {
     var foodlist = [String]()
     var foodlistDic = [NSDictionary]()
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         getAPIResponse()
     }
     
@@ -82,6 +84,8 @@ class SecondCollectionViewController: UICollectionViewController {
             cell.imageView.image = UIImage(data: imgData as! Data)
         }
         cell.imageView.layer.zPosition = -1
+        cell.layer.borderColor = UIColor.orange.cgColor
+        cell.layer.borderWidth = 5
         return cell
     }
 
