@@ -87,7 +87,7 @@ class FirstTableViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "dishcell1", for: indexPath) as! FirstTableViewCell
-        tableView.backgroundView = UIImageView(image: UIImage(named: "food1.jpg"))
+        tableView.backgroundView = UIImageView(image: UIImage(named: "food.jpg"))
         return cell
     }
     

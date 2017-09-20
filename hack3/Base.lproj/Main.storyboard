@@ -14,7 +14,7 @@
         <scene sceneID="c2f-GF-wBU">
             <objects>
                 <tableViewController id="jFC-SG-A6R" customClass="FirstTableViewController" customModule="hack3" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="105" sectionHeaderHeight="28" sectionFooterHeight="28" id="GTa-im-fnc">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleAspectFit" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="105" sectionHeaderHeight="28" sectionFooterHeight="28" id="GTa-im-fnc">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -33,10 +33,6 @@
                                 </imageView>
                             </subviews>
                         </stackView>
-                        <stackView key="tableFooterView" opaque="NO" contentMode="scaleAspectFit" axis="vertical" id="q53-82-QFL">
-                            <rect key="frame" x="0.0" y="344" width="320" height="44"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        </stackView>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="dishcell1" rowHeight="105" id="Rob-ET-nHX" customClass="FirstTableViewCell" customModule="hack3" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="239" width="320" height="105"/>
@@ -46,16 +42,16 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ingredient" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n1H-yR-43E">
-                                            <rect key="frame" x="19" y="39" width="100" height="21"/>
+                                            <rect key="frame" x="19" y="39" width="100" height="24"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="100" id="PPj-GF-hca"/>
                                             </constraints>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                             <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Lg-3M-CfQ">
-                                            <rect key="frame" x="282" y="63" width="30" height="36"/>
+                                            <rect key="frame" x="282" y="64.5" width="30" height="36"/>
                                             <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
                                             <state key="normal" title="+"/>
                                             <connections>
@@ -63,7 +59,7 @@
                                             </connections>
                                         </button>
                                         <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="enter" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3Gb-EQ-mky">
-                                            <rect key="frame" x="202" y="34" width="106" height="30"/>
+                                            <rect key="frame" x="202" y="35.5" width="106" height="30"/>
                                             <nil key="textColor"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                             <textInputTraits key="textInputTraits"/>
@@ -184,33 +180,33 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bOb-n4-G5O">
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bOb-n4-G5O">
                                 <rect key="frame" x="0.0" y="497" width="320" height="71"/>
-                                <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.97528648376464844" green="0.97737908363342285" blue="0.79607510566711426" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="71" id="6aq-7R-nOE"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <fontDescription key="fontDescription" name="SavoyeLetPlain" family="Savoye LET" pointSize="55"/>
                                 <state key="normal" title="Go to Site">
-                                    <color key="titleColor" red="0.95581723330000001" green="1" blue="0.37479490059999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <action selector="goToSitePressed:" destination="T4L-sP-pfu" eventType="touchUpInside" id="VKD-eD-bGa"/>
                                 </connections>
                             </button>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="54" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Sod-No-g3E">
-                                <rect key="frame" x="0.0" y="64" width="320" height="433"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="69" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Sod-No-g3E">
+                                <rect key="frame" x="0.0" y="64" width="320" height="425"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PageCell" rowHeight="54" id="1Wb-RP-rWU" customClass="CustomTableCell" customModule="hack3" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="320" height="54"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PageCell" rowHeight="69" id="1Wb-RP-rWU" customClass="CustomTableCell" customModule="hack3" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="320" height="69"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="1Wb-RP-rWU" id="0OP-fv-LQb">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="54"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="68.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gh2-Ct-go6">
-                                                    <rect key="frame" x="5" y="5" width="310" height="44"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gh2-Ct-go6">
+                                                    <rect key="frame" x="5" y="5" width="310" height="63"/>
                                                     <fontDescription key="fontDescription" name="SavoyeLetPlain" family="Savoye LET" pointSize="50"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -238,7 +234,7 @@
                         <constraints>
                             <constraint firstItem="bOb-n4-G5O" firstAttribute="bottom" secondItem="m2F-lY-T9n" secondAttribute="top" id="0vI-Yf-7K4"/>
                             <constraint firstAttribute="trailing" secondItem="Sod-No-g3E" secondAttribute="trailing" id="Dhi-Wn-itl"/>
-                            <constraint firstItem="bOb-n4-G5O" firstAttribute="top" secondItem="Sod-No-g3E" secondAttribute="bottom" id="Mfz-8p-hRN"/>
+                            <constraint firstItem="bOb-n4-G5O" firstAttribute="top" secondItem="Sod-No-g3E" secondAttribute="bottom" constant="8" id="KbL-tK-22g"/>
                             <constraint firstItem="bOb-n4-G5O" firstAttribute="trailing" secondItem="Sod-No-g3E" secondAttribute="trailing" id="SsG-Kc-DrP"/>
                             <constraint firstItem="Sod-No-g3E" firstAttribute="leading" secondItem="Ctc-N9-UwY" secondAttribute="leading" id="e6B-I7-ySs"/>
                             <constraint firstItem="bOb-n4-G5O" firstAttribute="leading" secondItem="Sod-No-g3E" secondAttribute="leading" id="qPt-jf-JCA"/>
